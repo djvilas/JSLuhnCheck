@@ -1,5 +1,3 @@
-let cardNum = String(7565261799822770)
-
 function luhnCheck(cardNum){
   cardNum = String(cardNum.split("").reverse().join(""));
 
@@ -23,5 +21,3 @@ function luhnCheck(cardNum){
     console.log("Invalid Number");
   }
 }
-
-luhnCheck(cardNum);
